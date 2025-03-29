@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rwanda Currency Converter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Rwanda Currency Converter</h1>
+        <div class="converter-box">
+            <div class="amount-container">
+                <label for="amount">Amount:</label>
+                <input type="number" id="amount" placeholder="Enter amount" value="1000">
+            </div>
+            
+            <div class="currency-selectors">
+                <div class="from-currency">
+                    <label for="from">From:</label>
+                    <select id="from"></select>
+                </div>
+                
+                <button id="swap" title="Swap currencies">⇄</button>
+                
+                <div class="to-currency">
+                    <label for="to">To:</label>
+                    <select id="to"></select>
+                </div>
+            </div>
+            
+            <button id="convert">Convert</button>
+            
+            <div id="loader"></div>
+            <div class="result" id="result">
+                <div class="conversion-result">
+                    <span class="amount">1000 RWF</span>
+                    <span class="equals">=</span>
+                    <span class="converted">0.00 USD</span>
+                </div>
+                <div class="rate">1 RWF = 0.0000 USD</div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
