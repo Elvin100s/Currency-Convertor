@@ -1,4 +1,4 @@
-const API_KEY = '003ecbfacc655886dd8353e7ac1d7a8b';
+const API_KEY = '';
 const BASE_URL = 'https://api.exchangeratesapi.io/v1';
 
 // Elements
