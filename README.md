@@ -21,7 +21,7 @@ A simple currency converter application supporting multiple East African and int
 - JavaScript
 
 ## API Attribution
-Currency exchange rates are powered by [ExchangeRate-API](https://app.exchangerate-api.com/dashboard/confirmed)
+Currency exchange rates are powered by [ExchangeRate-API](https://app.exchangerate-api.com)
 
 ## Project Origin
 Developed by [Elvin 100s Tech](https://elvin100s.tech)
